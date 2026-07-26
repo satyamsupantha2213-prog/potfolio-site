@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+
+}
+header{
+    background-color: bisque;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    border-radius: 0;
+}
+
+
+/* logo part */
+.logo{
+    display:flex;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+    height: 50px;
+}
+.logo span{
+    color: aqua;
+}
+.logo p{
+    font-size: 20px;
+}
+
+
+/* list part */
+.things li{
+    list-style: none;
+}
+.things a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(192, 78, 78);
+}
+.things ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.mid{
+    display:flex;
+    justify-content: space-between;
+}
+.mid img{
+    width:600px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.midcard{
+    display: grid;
+    grid-template-columns: auto;
+    border: 3px solid black;
+    font-size: 30px;
+}

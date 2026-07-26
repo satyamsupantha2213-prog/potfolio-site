@@ -48,7 +48,9 @@ nav{
 
 .mid{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 .mid img{
     width:600px;
@@ -61,4 +63,18 @@ nav{
     grid-template-columns: auto;
     border: 3px solid black;
     font-size: 30px;
+    row-gap: 40px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.midcard p{
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: pink;
+}
+.midcard p.info{
+    font-size: 40px;
+    border: none;
+    background-color: white;
+    font-style: italic;
 }

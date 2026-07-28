@@ -46,11 +46,13 @@ nav{
 }
 
 
+/*middle portion*/
 .mid{
     display:flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    background-color: bisque;
 }
 .mid img{
     width:600px;
@@ -66,6 +68,7 @@ nav{
     row-gap: 40px;
     padding: 20px;
     border-radius: 8px;
+    background-color: gray;
 }
 .midcard p{
     border: 2px solid black;
@@ -75,6 +78,25 @@ nav{
 .midcard p.info{
     font-size: 40px;
     border: none;
-    background-color: white;
+    background-color: gray;
     font-style: italic;
 }
+.card-wrapper{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.midcard ul{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.midcard ul li{
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(148, 207, 207);
+}
+
+
+

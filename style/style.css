@@ -100,3 +100,48 @@ nav{
 
 
 
+/*Skillset showing portion*/
+.skillhead{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
+
+.skillcard{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.skillcard img{
+    width: 70px;
+    hight: 50px;
+    display: block;
+    margin: 0 auto;
+}
+.skill-content{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(241, 151, 86);
+}
+.skill-content ul{
+    padding-left: 20px;
+}
+.skill-content li{
+    white-space: normal;
+    font-size: 25px;
+}
+.skill{
+    background-color: #FFE4C4;
+    padding-top: 10px;
+}
